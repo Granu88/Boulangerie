@@ -9,6 +9,7 @@ body {
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  background-color: #EB8A2A;
 }
 
 ol, ul {
@@ -293,9 +294,7 @@ h3.txt-tl {
   padding-right: 0px;
 }
 
-#contact {
-  background-color: #f8f8f8;
-}
+
 
 .validation {
   color: red;
@@ -388,7 +387,9 @@ a, a:hover {
 
 #footer {
   background-color: #191919;
+  margin-top: 3rem;
   padding: 20px 0px;
+
 }
 
 .footer-copyright {
@@ -463,15 +464,15 @@ a, a:hover {
     padding-bottom:50%;
     position:relative;
     height:0;
-}
+  }
 
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+  .map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
 }
 
 
